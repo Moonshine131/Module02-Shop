@@ -10,6 +10,7 @@ $white: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     &__nav {
         display: flex;
         list-style-type: none;
@@ -17,6 +18,7 @@ $white: #fff;
         padding-left: 0;
         gap: 40px;
     }
+
     &__link {
         font-size: 16px;
         color: $text;
@@ -25,6 +27,7 @@ $white: #fff;
             color: $orange;
         }
     }
+
     &__tel {
         font-size: 16px;
         color: $text;
@@ -33,6 +36,7 @@ $white: #fff;
             color: $orange;
         }
     }
+
     &__cart {
         display: block;
         width: 40px;
@@ -44,6 +48,7 @@ $white: #fff;
         background-position: center center;
         position: relative;
     }
+
     &__counter {
         font-size: 8px;
         color: $white;
@@ -52,6 +57,7 @@ $white: #fff;
         top: 6px;
     }
 }
+
 .logo {
     display: block;
     background-image: url(../images/logo.svg);
