@@ -1,0 +1,12 @@
+$bg: pink;
+
+.box {
+    background-color: $bg;
+    &__title {
+        color: red;
+    }
+    &__image {
+        width: 200px;
+        height: 200px;
+    }
+}
